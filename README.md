@@ -12,7 +12,7 @@ Start by Forking this repo.
 
 1. Write out at least 3 steps to describe the process of adding a new column to your database using entity framework. (1 point possible)
     1. First, you want to update your model(class) to add a new property(column).
-    2. Then, you run the command 'add-migration <migration name>' in the Nugget Package Console.
+    2. Then, you run the command 'add-migration <migration name>' in the Package Manager Console.
     3. Lastly, again in the console, you run the command 'update-database', this is what will actually update your database to include your new column.
 
 1. When I run `Update-Database`, which function in the migration is used `Up` or `Down`? (1 point possible)
