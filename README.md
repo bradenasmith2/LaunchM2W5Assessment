@@ -93,6 +93,10 @@ namespace BusTransitApp.Data
                   Id = 2,
                   Fare = 3.75F,
                   Stops = {context.Stops[0], context.Stops[1]}
+               }
+             context.Routes.AddRange(routes);
+             context.Stops.AddRange(stops);
+             context.SaveChanges();
             }
         }
     }
